@@ -1,5 +1,9 @@
-name: CI
-on: [push]
+name: Build styles
+on:
+  pull_request:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
