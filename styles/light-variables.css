@@ -1,5 +1,5 @@
 [data-theme="light"] {
-        --ui-button-primary: var(--ui-colors-orange-600, #6b46c1);
+        --ui-button-primary: var(--ui-colors-orange-600, #FFA500);
   --ui-button-border-radius: var(--ui-border-radius-lg, 8);
   --ui-button-border-width: var(--ui-dimension-sm, 4 * 2);
   --ui-card-border-radius: var(--ui-border-radius-lg, 8);
@@ -17,7 +17,7 @@
   --ui-bg-default: var(--ui-colors-white, #ffffff);
   --ui-bg-muted: var(--ui-colors-gray-100, #f7fafc);
   --ui-bg-subtle: var(--ui-colors-gray-200, #edf2f7);
-  --ui-bg-button: var(--ui-colors-orange-600, #6b46c1);
+  --ui-bg-button: var(--ui-colors-orange-600, #FFA500);
   --ui-accent-default: var(--ui-colors-indigo-400, #7f9cf5);
   --ui-accent-on-accent: var(--ui-colors-white, #ffffff);
   --ui-accent-bg: var(--ui-colors-indigo-200, #c3dafe);
@@ -64,7 +64,7 @@
   --ui-colors-orange-300: #fbd38d;
   --ui-colors-orange-400: #f6ad55;
   --ui-colors-orange-500: #ed8936;
-  --ui-colors-orange-600: var(--ui-colors-purple-700, #6b46c1);
+  --ui-colors-orange-600: #FFA500;
   --ui-colors-orange-700: #c05621;
   --ui-colors-orange-800: #9c4221;
   --ui-colors-orange-900: #7b341e;

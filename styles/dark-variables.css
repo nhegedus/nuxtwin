@@ -17,7 +17,6 @@
   --ui-bg-default: var(--ui-colors-gray-900, #1a202c);
   --ui-bg-muted: var(--ui-colors-gray-700, #4a5568);
   --ui-bg-subtle: var(--ui-colors-gray-600, #718096);
-  --ui-bg-button: var(--ui-colors-orange-500, #ed8936);
   --ui-accent-default: var(--ui-colors-indigo-600, #5a67d8);
   --ui-accent-on-accent: var(--ui-colors-white, #ffffff);
   --ui-accent-bg: var(--ui-colors-indigo-800, #434190);
@@ -64,7 +63,7 @@
   --ui-colors-orange-300: #fbd38d;
   --ui-colors-orange-400: #f6ad55;
   --ui-colors-orange-500: #ed8936;
-  --ui-colors-orange-600: var(--ui-colors-purple-700, #6b46c1);
+  --ui-colors-orange-600: #FFA500;
   --ui-colors-orange-700: #c05621;
   --ui-colors-orange-800: #9c4221;
   --ui-colors-orange-900: #7b341e;
