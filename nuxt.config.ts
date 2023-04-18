@@ -13,5 +13,8 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         'nuxt-icon'
     ],
+    generate: {
+        dir: '.output/public',
+    },
     components: true,
 })
