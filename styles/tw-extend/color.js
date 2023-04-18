@@ -7,7 +7,7 @@ module.exports = {
   "default": "var(--ui-bg-default, #ffffff);",
   "muted": "var(--ui-bg-muted, #f7fafc);",
   "subtle": "var(--ui-bg-subtle, #edf2f7);",
-  "button": "var(--ui-bg-button, #FFA500);",
+  "button": "var(--ui-bg-button, #48bb78);",
   "default": "var(--ui-accent-default, #7f9cf5);",
   "onAccent": "var(--ui-accent-on-accent, #ffffff);",
   "bg": "var(--ui-accent-bg, #c3dafe);",

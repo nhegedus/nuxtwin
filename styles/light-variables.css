@@ -17,7 +17,7 @@
   --ui-bg-default: var(--ui-colors-white, #ffffff);
   --ui-bg-muted: var(--ui-colors-gray-100, #f7fafc);
   --ui-bg-subtle: var(--ui-colors-gray-200, #edf2f7);
-  --ui-bg-button: var(--ui-colors-orange-600, #FFA500);
+  --ui-bg-button: var(--ui-colors-green-500, #48bb78);
   --ui-accent-default: var(--ui-colors-indigo-400, #7f9cf5);
   --ui-accent-on-accent: var(--ui-colors-white, #ffffff);
   --ui-accent-bg: var(--ui-colors-indigo-200, #c3dafe);
