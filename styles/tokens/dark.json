@@ -136,6 +136,10 @@
     "subtle": {
       "value": "{colors.gray.600}",
       "type": "color"
+    },
+    "button": {
+      "value": "{colors.purple.500}",
+      "type": "color"
     }
   },
   "accent": {
