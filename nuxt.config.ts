@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     app: {
         baseURL: '/nuxtwin/'
     },
-    css: ["@/assets/styles/styles.css"],
+    css: ["@/assets/styles/styles.css", "@/assets/styles/tailwind.css"],
     build: {
         postcss: {
             postcssOptions: require("./postcss.config.js"),
