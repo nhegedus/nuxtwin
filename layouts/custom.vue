@@ -24,9 +24,22 @@
   </template>
 
   <script lang="ts" setup>
-    const isDark = ref(false);
+    const isDark = ref(true);
+
+    onMounted(() => {
+      setTheme();
+    });
+    
     const toggleDarkMode = () => {
       isDark.value = !isDark.value
+      setTheme();
+    }
+    
+    const buttonLabel = computed(() => {
+      return isDark.value ? 'Light' : 'Dark';
+    });
+
+    const setTheme = () => {
       if (isDark.value) {
         document.documentElement.setAttribute('data-theme', 'dark');
         const el = document.getElementById('container');
@@ -37,8 +50,4 @@
         el.classList.remove('dark');
       }
     }
-    
-    const buttonLabel = computed(() => {
-      return isDark.value ? 'Light' : 'Dark';
-    });
   </script>
